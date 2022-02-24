@@ -1537,6 +1537,11 @@
                         "location": "json",
                         "type": "string",
                         "description": "JSON encoded body of any additional request fields."
+                    },
+                    "message_reference": {
+                        "location": "json",
+                        "type": "array",
+                        "description": "include to make your message a reply"
                     }
                 },
                 "parametersArray": false
